@@ -50,8 +50,8 @@ Certainly! Here is a complete step-by-step guide for adding `admin` and `student
 4. **Log in as the New Users**:
    - Attempt to log in as `admin` and `student` to verify the credentials work and to create the user objects in OpenShift:
      ```sh
-     oc login -u admin -p admin
-     oc login -u student -p student
+     oc login -u admin -p <password>
+     oc login -u student -p <password>
      ```
 
 5. **Assign Roles**:
