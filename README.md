@@ -72,7 +72,9 @@ Certainly! Here is a complete step-by-step guide for adding `admin` and `student
      ```
 
 
-Images for Reference:
+# Reference: 
+
+## Images for Reference:
 
 Login:
 
@@ -101,3 +103,23 @@ RHO-AI Login
 Settings are now visable:
 
 ![Alt text](image-7.png)
+
+
+# Logs
+
+## **oc describe user admin**
+
+```bash
+$ oc describe user admin
+oc describe user student
+Name:		admin
+Created:	9 minutes ago
+Labels:		<none>
+Annotations:	<none>
+Identities:	htpasswd_provider:admin
+Name:		student
+Created:	25 minutes ago
+Labels:		<none>
+Annotations:	<none>
+Identities:	htpasswd_provider:student
+```
